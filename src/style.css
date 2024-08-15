@@ -1,0 +1,46 @@
+.userform {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+#passImg{
+  width: 40%;
+}
+ .table{
+    font-size: 1rem;
+  }
+@media (max-width: 400px) {
+  .userform {
+    flex-direction: column;
+    gap: 1rem;
+    align-items:center;
+  }
+  form{
+    width: 80% ;
+  }
+  .userform input {
+    width: 100%;
+  }
+
+  #passImg{
+    width: 20px;
+   } 
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  .form input {
+    width: 100%;
+  }
+  .table{
+    width: 100%;
+    font-size: .75rem;
+  }
+  .table > *  {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .userNameInTable{
+    display: none;
+  }
+}
